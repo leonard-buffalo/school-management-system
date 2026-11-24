@@ -18,7 +18,9 @@ if (!$total_fees) $total_fees = 0;
 <p><b>Total Students:</b> <?php echo $total_students; ?></p>
 <p><b>Total Fees Collected:</b> K <?php echo $total_fees; ?></p>
 <br>
-<a href="students.php">Manage Students</a> | 
+<a href="students.php">Manage Students</a> |
+<a href="grades.php">Manage Grades</a> | 
+<a href="attendance.php">Manage Attendance</a> |  
 <a href="fees.php">Manage Fees</a> |  
 <a href="logout.php">Logout</a>
 </body>
